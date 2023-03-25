@@ -63,4 +63,4 @@ df = pd.DataFrame(columns=cols, data=table)
 df[['Овог', 'Нэр']] = df['Эцэг /эх/-ийн нэр Өөрийн нэр'].str.split(' ', 1, expand=True)
 
 # save
-df.to_csv('Боловсролын зээлийн сан түүх_1997_2023.csv', encoding="utf-8-sig")
+df.to_csv('data/Боловсролын зээлийн сан түүх_1997_2023.csv', encoding="utf-8-sig")
